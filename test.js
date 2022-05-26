@@ -1,24 +1,3 @@
-
-// const fs = require('fs').promises;
-
-// const filePath = 'link.txt';
-
-// async function readFile() {
-//    try {
-//      const data = await fs.readFile(filePath);
-//      console.log(data.toString());
-//    } catch (error) {
-//      console.error(`Got an error trying to read the file: ${error.message}`);
-//    }
-// }
-
-// const myURL = readFile();
-// console.log(myURL.host);
-
-// myURL.protocol = 'https';
-// console.log(myURL.href);
-// const url = require('url');
-// const { text } = require('express');
 var express = require('express');
 const fs = require('fs');
 
@@ -56,21 +35,3 @@ request(options, function (error, response) {
 
 }
 
-// ACS execution script
-
-
-// var url = processFile(content);
-
-// var request = require('request');
-// // fs.writeFile('link.txt', 'Hello Node.js', 'utf8', callback);
-// var options = {
-//   'method': 'GET',
-//   'url': url,
-//   'headers': {
-//     'Authorization': 'Basic QWRtaW5pc3RyYXRvcjpDdzg4Mzk2Mjk='
-//   }
-// };
-// request(options, function (error, response) {
-//   if (error) throw new Error(error);
-//   console.log(response.body);
-// });
